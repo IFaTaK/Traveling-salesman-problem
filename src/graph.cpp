@@ -6,9 +6,22 @@ Graph::Graph(std::vector<std::vector<int>> matrix) {
 }
 
 void Graph::print() {
-    for (std::vector<int> row : this->matrix) {
+    int maxElementWidth = 0;
+
+    // Find the maximum width of an element in the matrix
+    for (const std::vector<int>& row : this->matrix) {
         for (int col : row) {
-            std::cout << col << " ";
+            int elementWidth = std::to_string(col).length();
+            if (elementWidth > maxElementWidth) {
+                maxElementWidth = elementWidth;
+            }
+        }
+    }
+
+    // Display the matrix with aligned columns
+    for (const std::vector<int>& row : this->matrix) {
+        for (int col : row) {
+            std::cout << std::setw(maxElementWidth) << col << " ";
         }
         std::cout << std::endl;
     }
