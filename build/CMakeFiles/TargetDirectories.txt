@@ -1,3 +1,0 @@
-/Users/kilian/Documents/Coding/C++/Traveling salesman problem/build/CMakeFiles/tsp.dir
-/Users/kilian/Documents/Coding/C++/Traveling salesman problem/build/CMakeFiles/edit_cache.dir
-/Users/kilian/Documents/Coding/C++/Traveling salesman problem/build/CMakeFiles/rebuild_cache.dir
