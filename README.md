@@ -75,7 +75,7 @@ There are two executables available:
 ## Results
 - The results of the heuristic methods can vary depending on the dataset and the specific implementation. It is recommended to experiment with different methods and parameters to find the best solution for a given problem instance.
 
-Here one example I got :
+Here is an example I obtained:
 ```txt
 Graph (size 10) : ant_colony parameters (10,100,1,5,0.5)
 
