@@ -1,0 +1,10 @@
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 257
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 231
+Best parameters: 5, 50, 0.5, 3, 0.5 - Path length: 251
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 229
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 206
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 235
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 337
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 310
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 174
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 262
