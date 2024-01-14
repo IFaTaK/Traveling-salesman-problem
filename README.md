@@ -61,7 +61,7 @@ The Traveling Salesman Problem (TSP) is a classic optimization problem in comput
 5. Run CMake and build the project:
    ```
    cmake ..
-   make
+   cmake --build
    ```
 
 ## Running the Program
@@ -74,7 +74,7 @@ cd ../exec
 ./[executableName]
 ```
 
-### On On Windows
+### On Windows
 - After building, run the executable found in the `exec` directory.
 
 ```bash
@@ -88,7 +88,7 @@ There are three executables available:
 - `comparison` : This executable compares the three methods over 10000 random graphs. You can save result in `save/comparison.csv` using :
 ```bash
 ./comparison > ../save/comparison.csv # On Unix-based Systems (Linux, macOS)
-[executableName].exe > ../save/comparison.csv # On windows
+comparison.exe > ../save/comparison.csv # On windows
 ```
 - `tsp`: This executable solves the traveling salesman problem using the three methods. The generated graph is written into the `save/graph.txt` file.
 
@@ -127,28 +127,28 @@ This project is licensed under GNU General Public License.
 
 ```
 Traveling salesman problem
-├─ CMakeLists.txt
-├─ LICENSE
-├─ README.md
-├─ experimentation.txt
-├─ graph.txt
-├─ optimize.txt
-├─ optimization.xlsx
-├─ main.cpp
-├─ optimize.cpp
+├─ src
+│  ├─ graph.cpp
+│  ├─ graph.h
+│  ├─ solver.cpp
+│  └─ solver.h
 ├─ data
 │  ├─ comparison.csv
 │  ├─ experimentation.txt
 │  ├─ graph.txt
 │  └─ optimize.txt
-├─ assets
-│  └─ banner.png
 ├─ exec
+│  ├─ comparison
 │  ├─ optimize
 │  └─ tsp
-└─ src
-   ├─ graph.cpp
-   ├─ graph.h
-   ├─ solver.cpp
-   └─ solver.h
+├─ assets
+│  └─ banner.png
+├─ CMakeLists.txt
+├─ LICENSE
+├─ README.md
+├─ experimentation.xlsx
+├─ main.cpp
+├─ optimize.cpp
+└─ comparison.cpp
+
 ```
