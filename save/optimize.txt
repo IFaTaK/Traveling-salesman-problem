@@ -1,0 +1,32 @@
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 257
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 231
+Best parameters: 5, 50, 0.5, 3, 0.5 - Path length: 251
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 229
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 206
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 235
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 337
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 310
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 174
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 262
+
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 249
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 217
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 341
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 369
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 362
+Best parameters: 5, 50, 0.5, 2, 0.3 - Path length: 238
+Best parameters: 5, 50, 0.5, 2, 0.3 - Path length: 159
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 261
+Best parameters: 5, 50, 0.5, 2, 0.3 - Path length: 159
+Best parameters: 5, 50, 0.5, 2, 0.3 - Path length: 241
+
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 475
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 343
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 362
+Best parameters: 5, 50, 0.5, 4, 0.3 - Path length: 456
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 318
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 313
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 296
+Best parameters: 5, 50, 0.5, 5, 0.4 - Path length: 330
+Best parameters: 5, 50, 0.5, 5, 0.3 - Path length: 442
+Best parameters: 5, 50, 0.5, 3, 0.3 - Path length: 214

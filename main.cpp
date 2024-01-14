@@ -28,7 +28,7 @@ int main() {
             if (i == j) {
                 matrix[i][j] = 0; // distance from a point to itself is 0
             } else {
-                int rand_val = 1 + std::rand() % 100; // generate a random number between 0 and 5
+                int rand_val = 1 + std::rand() % 100; // generate a random number between 0 and 100
                 matrix[i][j] = rand_val;
                 matrix[j][i] = rand_val; // ensure symmetry
             }
@@ -39,7 +39,7 @@ int main() {
     Graph g(matrix);
 
     // Displaying the graph
-    g.print_to_file("../graph.txt");
+    g.print_to_file("../save/graph.txt");
 
     auto start = std::chrono::high_resolution_clock::now();
     std::vector<int> path = nearest::shortest_path(g, 0);

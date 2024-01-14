@@ -160,6 +160,6 @@ std::vector<int> antcolony::AntColony::solve() {
 }
 
 std::vector<int> antcolony::shortest_path(Graph& graph, int start) {
-    AntColony ant_colony(graph, start, 5, 50, 0.5, 4, 0.3);
+    AntColony ant_colony(graph, start, 10, 100, 0.5, 5, 0.5);
     return ant_colony.solve();
 }

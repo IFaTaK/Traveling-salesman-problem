@@ -61,16 +61,36 @@ The Traveling Salesman Problem (TSP) is a classic optimization problem in comput
 5. Run CMake and build the project:
    ```
    cmake ..
-   cmake --build .
+   make
    ```
 
 ## Running the Program
+
+### On Unix-based Systems (Linux, macOS)
 - After building, run the executable found in the `exec` directory.
 
-There are two executables available:
+```bash
+cd ../exec
+./[executableName]
+```
+
+### On On Windows
+- After building, run the executable found in the `exec` directory.
+
+```bash
+cd ../exec
+[executableName].exe
+```
+
+There are three executables available:
 
 - `optimize`: This executable attempts to find the best parameters for the ant colony optimization on a randomly generated graph.
-- `tsp`: This executable solves the traveling salesman problem using the three methods. The generated graph is written into the `graph.txt` file.
+- `comparison` : This executable compares the three methods over 10000 random graphs. You can save result in `save/comparison.csv` using :
+```bash
+./comparison > ../save/comparison.csv # On Unix-based Systems (Linux, macOS)
+[executableName].exe > ../save/comparison.csv # On windows
+```
+- `tsp`: This executable solves the traveling salesman problem using the three methods. The generated graph is written into the `save/graph.txt` file.
 
 ## Results
 - The results of the heuristic methods can vary depending on the dataset and the specific implementation. It is recommended to experiment with different methods and parameters to find the best solution for a given problem instance.
@@ -116,12 +136,17 @@ Traveling salesman problem
 ├─ optimization.xlsx
 ├─ main.cpp
 ├─ optimize.cpp
+├─ data
+│  ├─ comparison.csv
+│  ├─ experimentation.txt
+│  ├─ graph.txt
+│  └─ optimize.txt
 ├─ assets
 │  └─ banner.png
 ├─ exec
 │  ├─ optimize
 │  └─ tsp
-├─ src
+└─ src
    ├─ graph.cpp
    ├─ graph.h
    ├─ solver.cpp

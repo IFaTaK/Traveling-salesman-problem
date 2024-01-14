@@ -5,7 +5,7 @@
 int main(){
     std::srand(std::time(0)); // use current time as seed for random generator
 
-    const int size = 10;
+    const int size = 20;
     // Creation of an adjacency matrix for a graph with 100 vertices
     // std::vector<std::vector<int>> matrix = {
     //     { 0, 79, 48, 72, 46, 56, 49, 53, 85, 93},
@@ -78,4 +78,5 @@ int main(){
         }
     }
     std::cout << "Best parameters: " << best_num_ants << ", " << best_num_iterations << ", " << best_alpha << ", " << best_beta << ", " << best_evaporation_rate << " - Path length: " << best_past_length << "\n";
+    return 0;
 }
